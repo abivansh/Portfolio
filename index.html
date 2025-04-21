@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abivansh Arva Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <ul style="display: flex; justify-content: space-between; align-items: center;">
+          <li style="flex-grow: 1; font-size: 3em;"><a href="#1">A. Arva</a></li>
+          <div style="display: flex; gap: 20px;">
+            <li><a href="#">Home</a></li>
+            <li><a href=#about>About</a></li>
+            <li><a href=#projects>Projects</a></li>
+            <li><a href=#contact>Contact</a></li>
+            <li><a class="btn-resume" href="#">Resume</a></li>
+          </div>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="display: flex; align-items: center; justify-content: space-between;">
+      <div class="hero-text">
+        <p class="intro">I am</p>
+        <h2>Abivansh Arva</h2>
+        <p class="desc">​2ND CIS STUDENT 
+          MOUNT ROYAL UNIVERSITY</p>
+      </div>
+      <div class="hero-img">
+        <img src="portfolio_edited.png" alt="Abivansh Arva Photo"
+          style="width: 200px; height: 200px; border-radius: 50%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);" />
+      </div>
+    </section>
+  </main>
+</body>
+
+<main>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a second-year Computer Information Systems student with a passion for data, design, and development. I've
+      built several end-to-end projects using Kaggle datasets, Tableau for insightful visualizations, and developed
+      complex apps using Python, HTML, and JavaScript. Whether it's analyzing trends or creating full-stack
+      applications, I love solving real-world problems through tech.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <h3>Kaggle Projects</h3>
+    <article>
+      <h4>Iphone 16 Review Analysis Based on Youtube Comments</h4>
+      <p>Analyzed public reception of the iPhone 16 Pro by scraping and preprocessing YouTube comments using Python.
+        Applied VADER sentiment analysis to classify viewer sentiment and used topic modeling (LDA) and clustering
+        (Sentence-BERT) to identify key discussion themes. Visualized results with Tableau to uncover consumer sentiment
+        trends and product perception insights.</p>
+      <a href="https://www.kaggle.com/code/abivansharva/iphone-16-release-analysis-based-on-yt-video-comme"
+        target="_blank">View Project</a>
+    </article>
+    <article>
+      <h4>Global Tourism Analysis</h4>
+      <p>Along with the UN Tourism and the World Travel & Tourism Council, I analyzed and explored the provided datasets
+        regarding global tourism. For data cleansing and data visualization, I used Python, and I also forecasted
+        post-pandemic recovery trajectories using time-series forecasting models. Recognized noteworthy tendencies like
+        the comeback of international trips, mounting sustainable tourism, and the effect of digitization on traveler's
+        behavioral shift. Leveraged interactive dashboards to share findings which facilitated the strategic planning
+        tourism industry.</p>
+      <a href="https://www.kaggle.com/code/abivansharva/global-tourism-trends-2015-2019-a-data-driven-a"
+        target="_blank">View Project</a>
+    </article>
+    <!-- Add more data analysis projects as needed -->
+
+    <h3>Programming Applications</h3>
+    <article>
+      <h4>FormSenseAI (Work In Progress)</h4>
+      <p>Developed a browser-based AI application that uses pose estimation to evaluate and score user exercise form.
+        Trained custom models using OpenPose and TensorFlow on labeled keypoint datasets for various workouts.
+        Implemented exercise classification and form rating with TensorFlow.js, allowing real-time feedback via webcam.
+        Integrated a secure user login system and workout history tracking using Node.js, MongoDB, and JWT. Designed
+        intuitive front-end with HTML, CSS, and JavaScript.</p>
+      <a href="https://formsenseai-backend.onrender.com/index.html" target="_blank">View Project</a>
+    </article>
+    <article>
+      <h4>STOCKY (Work In Progress)</h4>
+      <p>
+        Building a web-based stock market simulator that allows users to create and manage virtual portfolios using
+        real-time financial data. The front end is developed with HTML, CSS, and JavaScript, while the backend handles
+        user authentication and portfolio tracking using Node.js, Express, and MongoDB. Currently integrating live
+        market APIs and developing intelligent insights to help users simulate investment strategies in a risk-free
+        environment</p>
+    </article>
+    <!-- Add more programming applications as needed -->
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Name: Abivansh Arva</p>
+    <p>Email: <a href="mailto:abivanshreddy04@gmail.com">abivanshreddy04@gmail.com</a></p>
+    <p>Phone:+1 825-712-9948</p>
+    <p>Location: Calgary, Alberta, Canada</p>
+  </section>
+</main>
+</body>
+
+</html>
